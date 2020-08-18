@@ -1,6 +1,11 @@
 # The Memorise Game
 A memorise game inspired by Giovanni Gato, from Reddit
 
+<img src="resources/first_screen.png" width=500px>
+
+<img src="resources/second_screen.png" width=500px>
+
+
 ## Prerequisites
 
 ```bash
