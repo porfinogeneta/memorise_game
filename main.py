@@ -129,8 +129,8 @@ class Game:
     def timeFinished(self):
         self.seconds = 0
         for object in self.memo_objects:
-            object.image.fill(RED)
-            
+            # object.image.fill(RED)
+            pass
 
 
     def LevelFinished(self):
@@ -199,12 +199,12 @@ class Game:
                 if event.type == pg.KEYUP:
                     waiting = False
 
+if __name__ == '__main__':
+    g = Game()
+    g.show_start_screen()
+    while True:
+        g.new()
+        g.run()
+        g.show_go_screen()
 
-g = Game()
-g.show_start_screen()
-while True:
-    g.new()
-    g.run()
-    g.show_go_screen()
-
-pg.quit()
+    pg.quit()
